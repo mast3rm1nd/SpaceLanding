@@ -1,0 +1,13 @@
+C:\Users\Администратор\Dropbox\!Coding\All_in_one\SpaceLanding\SpaceLanding\obj\Debug\SpaceLanding.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Dropbox\!Coding\All_in_one\SpaceLanding\SpaceLanding\obj\Debug\MainWindow.g.cs
+C:\Users\Администратор\Dropbox\!Coding\All_in_one\SpaceLanding\SpaceLanding\obj\Debug\App.g.cs
+C:\Users\Администратор\Dropbox\!Coding\All_in_one\SpaceLanding\SpaceLanding\obj\Debug\MainWindow.baml
+C:\Users\Администратор\Dropbox\!Coding\All_in_one\SpaceLanding\SpaceLanding\obj\Debug\SpaceLanding.Properties.Resources.resources
+C:\Users\Администратор\Dropbox\!Coding\All_in_one\SpaceLanding\SpaceLanding\obj\Debug\SpaceLanding.csproj.GenerateResource.Cache
+C:\Users\Администратор\Dropbox\!Coding\All_in_one\SpaceLanding\SpaceLanding\bin\Debug\Lander.exe
+C:\Users\Администратор\Dropbox\!Coding\All_in_one\SpaceLanding\SpaceLanding\bin\Debug\Lander.pdb
+C:\Users\Администратор\Dropbox\!Coding\All_in_one\SpaceLanding\SpaceLanding\obj\Debug\Lander_MarkupCompile.cache
+C:\Users\Администратор\Dropbox\!Coding\All_in_one\SpaceLanding\SpaceLanding\obj\Debug\Lander_MarkupCompile.lref
+C:\Users\Администратор\Dropbox\!Coding\All_in_one\SpaceLanding\SpaceLanding\obj\Debug\Lander.g.resources
+C:\Users\Администратор\Dropbox\!Coding\All_in_one\SpaceLanding\SpaceLanding\obj\Debug\Lander.exe
+C:\Users\Администратор\Dropbox\!Coding\All_in_one\SpaceLanding\SpaceLanding\obj\Debug\Lander.pdb

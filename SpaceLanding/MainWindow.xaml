@@ -1,0 +1,27 @@
+﻿<Window x:Class="SpaceLanding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SpaceLanding"
+        mc:Ignorable="d"
+        Title="Lander 0.1" Height="476" Width="724" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <GroupBox x:Name="groupBox" Header="Настройки полёта" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="165" Width="685">
+            <Grid HorizontalAlignment="Left" Height="136.96" Margin="4,3.04,0,0" VerticalAlignment="Top" Width="671">
+                <ComboBox x:Name="SpaceLands_comboBox" HorizontalAlignment="Left" Margin="155,14,0,0" VerticalAlignment="Top" Width="145" SelectionChanged="SpaceLands_comboBox_SelectionChanged"/>
+                <Label x:Name="label" Content="Куда приземляемся:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                <ComboBox x:Name="SpaceCrafts_comboBox" HorizontalAlignment="Left" Margin="155,44.96,0,0" VerticalAlignment="Top" Width="145" SelectionChanged="SpaceCrafts_comboBox_SelectionChanged"/>
+                <Label x:Name="label_Copy" Content="На чём приземляемся:" HorizontalAlignment="Left" Margin="10,40.96,0,0" VerticalAlignment="Top"/>
+                <Label x:Name="SpaceLand_Description_Label" Content="Desc." HorizontalAlignment="Left" Margin="305,10,0,0" VerticalAlignment="Top"/>
+                <Label x:Name="SpaceCraft_Description_Label" Content="Desc." HorizontalAlignment="Left" Margin="305,40.96,0,0" VerticalAlignment="Top"/>
+            </Grid>
+        </GroupBox>
+        <Button x:Name="Go_button" Content="Поехали!" HorizontalAlignment="Left" Margin="10,180,0,0" VerticalAlignment="Top" Width="685" Height="25" Click="Go_button_Click"/>
+        <Label x:Name="label2" Content="Подача топлива:" HorizontalAlignment="Left" Margin="152.393,400,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="KgToExhaust_textBox" HorizontalAlignment="Left" Height="23" Margin="259.06,404,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyDown="KgToExhaust_textBox_KeyDown" IsEnabled="False"/>
+        <Label x:Name="label2_Copy" Content="0-100 кг/с (в течение 10 секунд)" HorizontalAlignment="Left" Margin="384.06,401.04,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Status_textBlock" HorizontalAlignment="Left" Margin="10,210,0,0" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" Width="685"/>
+
+    </Grid>
+</Window>
